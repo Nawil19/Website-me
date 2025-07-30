@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice - Toko Laptop Nafis</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Invoice Pembelian</h1>
+    <marquee scrollamount="6">Terima kasih telah berbelanja di Toko Laptop Nafis</marquee>
+    <nav>
+      <ul>
+        <li><a href="index.html">Produk</a></li>
+        <li><a href="transaksi.html">Transaksi</a></li>
+        <li><a href="invoice.html" class="active">Invoice</a></li>
+        <li><a href="about.html">Kontak Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="invoice">
+      <h2>Detail Transaksi</h2>
+      <div id="outputInvoice">
+        <p><strong>Nama:</strong> <span id="outNama"></span></p>
+        <p><strong>Email:</strong> <span id="outEmail"></span></p>
+        <p><strong>No. HP:</strong> <span id="outTelepon"></span></p>
+        <p><strong>Alamat:</strong> <span id="outAlamat"></span></p>
+        <p><strong>Produk:</strong> <span id="outProduk"></span></p>
+        <p><strong>Jumlah:</strong> <span id="outJumlah"></span></p>
+        <p><strong>Total Harga:</strong> <span id="outTotal"></span></p>
+      </div>
+      <button onclick="window.print()">Cetak Invoice</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Toko Laptop Nafis | All rights reserved.</p>
+  </footer>
+</body>
+</html>

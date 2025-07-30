@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Laptop Garuda</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Toko Laptop Garuda</h1>
+    <marquee scrollamount="6">Selamat datang di Toko Laptop Garuda — Harga Terbaik, Kualitas Terpercaya!</marquee>
+    <nav>
+      <ul>
+        <li><a href="index.html">Produk</a></li>
+        <li><a href="transaksi.html">Transaksi</a></li>
+        <li><a href="invoice.html">Invoice</a></li>
+        <li><a href="about.html">Kontak Kami</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside class="sidebar-left">
+    <h3>Kategori</h3>
+    <ul>
+      <li>Laptop Gaming</li>
+      <li>Laptop Kantoran</li>
+      <li>Laptop Pelajar</li>
+    </ul>
+  </aside>
+
+  <main>
+    <section id="produk">
+      <h2>Daftar Produk</h2>
+      <div class="produk-container">
+        <div class="produk">
+          <img src="laptop1.avif" alt="Laptop 1">
+          <p>Laptop Gaming X1<br>Rp15.000.000</p>
+          <button onclick="pesanProduk('Laptop Gaming X1')">Beli</button>
+        </div>
+        <div class="produk">
+          <img src="laptop2.jpg" alt="Laptop 2">
+          <p>Laptop Pelajar A2<br>Rp6.000.000</p>
+          <button onclick="pesanProduk('Laptop Pelajar A2')">Beli</button>
+        </div>
+        <div class="produk">
+          <img src="laptop3.jpg" alt="Laptop 3">
+          <p>Laptop Kantor B3<br>Rp9.000.000</p>
+          <button onclick="pesanProduk('Laptop Kantor B3')">Beli</button>
+        </div>
+        <div class="produk">
+          <img src="laptop4.jpg" alt="Laptop 4">
+          <p>Laptop Premium C4<br>Rp18.000.000</p>
+          <button onclick="pesanProduk('Laptop Premium C4')">Beli</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Toko Laptop Garuda | All rights reserved.</p>
+  </footer>
+</body>
+</html>
